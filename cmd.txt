@@ -1,0 +1,25 @@
+\q - quit sql terminal
+\l - list data base
+\c + name database - conect database
+\h - sql commands help
+\? - psql commands
+\d + name table - show table
+help - general help
+
+CREATE DATABASE name; - Cria um database
+DROP DATABASE name; - Apaga database
+DROP TABLE name;
+CREATE TABLE table_name (
+	column name + data type + constraints if any
+)
+
+DATA TYPES DOC: https://www.postgresql.org/docs/current/datatype.html
+
+ex:
+test=# CREATE TABLE person (
+test(# id INT,
+test(# frist_name VARCHAR(50),
+test(# last_name VARCHAR(50),
+test(# gender VARCHAR(7),
+test(# date_of_birth DATE);
+CREATE TABLE
